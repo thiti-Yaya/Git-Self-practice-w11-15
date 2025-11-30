@@ -67,19 +67,21 @@
 //     }
 // }
 
+
 // working2
 
 
-async function working2() {
-    try {
-         console.log(`starting...`)
-    const workStatus = await doSomething(false)
-    console.log(workStatus)
-    console.log("ending...")
-    } catch (error) {
-        console.log(error)
-    }
-}
-working2
+//handle promise - 2 ways (1) .then().catch(), (2) async-await)
+//1) .then().catch()
+// console.log("starting...")
 
-
+// doSomething(false)
+//   .then((result) => {
+//     console.log("working...")
+//     console.log(`work status= ${result}`)
+//     console.log("ending...")
+//   })
+//   .catch((error) => {
+//     console.log(error)
+//   })
+ 
